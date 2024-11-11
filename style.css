@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bodoni Moda SC', serif, 'Sour Gummy', sans-serif;
+
+
+/* Style for body */
+body {
+  background-color: #fbfbf2ff;
+  color: #847577ff;
+  line-height: 1.6;
+  background-image: url('https://i.pinimg.com/564x/91/1e/b5/911eb577b2c031687e91a0f1f853ab9b.jpg');
+  background-size: cover; /* Ensures the image covers the entire body */
+  background-position: center; /* Centers the background image */
+  background-attachment: fixed; /* Keeps the background fixed when scrolling */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  color: #847577ff;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for container */
+.container {
+  background-color: rgba(229, 230, 228, 0.7);
+  color: #847577ff; 
+  padding: 20px;
+  border: 1px solid #cfd2cdff; 
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style for rows */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+/* Style for columns */
+.column {
+  flex: 1;
+  padding: 10px;
+  background-color: #a6a2a2ff; 
+  color: #fbfbf2ff; 
+  border-radius: 8px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid #847577ff; /* Taupe Gray */
+}
+
+
+
+/* Additional styling */
+h1, h2, h3 {
+  color: rosebrown;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+
+footer {
+  background-color: #a6a2a2ff; 
+  color: #fbfbf2ff; 
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #847577ff; 
+}
+
+header {
+  background-color: #a6a2a2ff; 
+  color: #fbfbf2ff; 
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #847577ff; 
+}
+
+nav {
+  background-color: #003366; 
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #e5e6e4ff; 
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fbfbf2ff; 
+}
